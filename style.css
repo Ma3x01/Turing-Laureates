@@ -1,18 +1,18 @@
 @font-face {
     font-family: "FeatureMono-Medium";
-    src: url("./fonts/Feature Mono/FeatureMono-Medium.ttf");
+    src: url("./fonts/FeatureMono-Medium.ttf");
 }
 @font-face {
     font-family: "FeatureMono-Bold";
-    src: url("./fonts/Feature Mono/FeatureMono-Bold.ttf");
+    src: url("./fonts/FeatureMono-Bold.ttf");
 }
 @font-face {
     font-family: "FeatureMono-Regular";
-    src: url("./fonts/Feature Mono/FeatureMono-Regular.ttf");
+    src: url("./fonts/FeatureMono-Regular.ttf");
 }
 @font-face {
   font-family: "FeatureMono-Thin";
-  src: url("./fonts/Feature Mono/FeatureMono-Thin.ttf");
+  src: url("./fonts/FeatureMono-Thin.ttf");
 }
 
 body {

@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "FeatureMono-Medium";
+    src: url("../fonts/Feature Mono/FeatureMono-Medium.ttf");
+}
+@font-face {
+    font-family: "FeatureMono-Bold";
+    src: url("../fonts/Feature Mono/FeatureMono-Bold.ttf");
+}
+@font-face {
+    font-family: "FeatureMono-Regular";
+    src: url("../fonts/Feature Mono/FeatureMono-Regular.ttf");
+}
+@font-face {
+  font-family: "FeatureMono-Thin";
+  src: url("../fonts/Feature Mono/FeatureMono-Thin.ttf");
+}
+
+body {
+  background-color: #222526;
+  width: 100%;
+  margin: 0 auto;
+  color:#1A1A1A
+}
+
+header {
+  background-color: #222526;
+  font-family:"FeatureMono-Bold";
+  border: none;
+  color:#E0E0E0;
+  font-size: 36px;
+  margin: 0 auto;
+  padding: 5px;
+}
+.navHeader {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navHeader a, .navHeader a:link, .navHeader a:hover, .navHeader  a:visited, .navHeader  a:active {
+  text-decoration: none;
+  color:#E0E0E0;
+}
+
+main {
+  background-color: #BFBFBF;
+  display: flex;
+  box-sizing: content-box;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  align-items: stretch;
+}
+
+article {
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 4px;
+  min-height: 5000px;
+  background-color: #E0E0E0;
+  font-family: "FeatureMono-Medium";
+  border-radius: 15px;
+  display: flex;
+  width: auto;
+}
+article div.block {
+  border: 2px solid #222526;
+  height: 440px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+  cursor: pointer;
+}
+.hide {
+  opacity: 1;
+  animation-name: anim1;
+  animation-duration: 0.0s;
+  animation-fill-mode: forwards;
+}
+@keyframes anim1 {
+  to {
+    opacity: 0;
+    min-height: 0;
+    height: 0;
+    min-width: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+}
+.inside-block-img {
+  text-align: center;
+  height: 160px;
+}
+.inside-block-name {
+  text-align: center;
+}
+.inside-block-inf {
+  text-align: center;
+}
+.inside-block-inf p {
+  font-family: "FeatureMono-Regular";
+  margin: 0 auto;
+}
+
+nav {
+  padding: 20px;
+  min-width: 10%;
+  min-height: 1000px;
+  font-family: "FeatureMono-Medium";
+  background-color: #E0E0E0;
+  border-radius: 15px;  
+}
+nav a {
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+nav a, nav  a:hover, nav  a:link, nav  a:visited, nav  a:active {
+  text-decoration: none;
+  color:#1A1A1A;
+}
+nav a::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #1A1A1A;
+  transition: 0.5s;
+}
+nav a:hover:after {
+  width: 100%;
+}
+
+footer {
+  height: 200px;
+  background-color: #222526;
+  position: relative;
+  font-family: "FeatureMono-Thin";
+  color: #BFBFBF
+}
+.navFooter {
+  height: 160px;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navFooter div.contacts {
+  float: left;
+}
+.navFooter div a {
+  font-family: "FeatureMono-Regular";
+  font-size: 19px;
+}
+.navFooter div p {
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.navFooter div.inf {
+  width: 180px;
+  float: left;
+  margin-left: 40px;
+}
+
+.navFooter div.font {
+  margin-left: 40px;
+  width: 220px;
+  float: left;
+}
+
+.navFooter div.progr {
+  width: 140px;
+  float: left;
+  margin-left: 40px;
+}
+/* */

@@ -45,6 +45,7 @@ main {
   background-color: #BFBFBF;
   display: flex;
   box-sizing: content-box;
+  min-height: 520px;
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 10px;
@@ -60,7 +61,6 @@ article {
   padding-left: 60px;
   padding-right: 60px;
   margin-left: 4px;
-  min-height: 5000px;
   background-color: #E0E0E0;
   font-family: "FeatureMono-Medium";
   border-radius: 15px;
